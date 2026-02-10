@@ -1,0 +1,10 @@
+{
+  "version": 1.0,
+  "css_selectors": [
+    "[data-testid='ad-slot']",
+    ".sponsored-message",
+    "div[aria-label='Sponsored']"
+  ],
+  "keywords": ["Sponsored", "Promoted", "Ad", "Advertisement"],
+  "text_threshold": 120
+}
