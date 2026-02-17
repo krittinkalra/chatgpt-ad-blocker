@@ -1,4 +1,4 @@
-# ChatGPT Ad Blocker 
+# ChatGPT Ad Blocker :no_entry_sign::shield:
 
 A community-driven, open-source browser extension to block ads on ChatGPT. 
 
