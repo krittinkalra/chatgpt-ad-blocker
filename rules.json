@@ -1,10 +1,17 @@
 {
-  "version": 1.0,
+  "version": 1.1,
   "css_selectors": [
     "[data-testid='ad-slot']",
     ".sponsored-message",
-    "div[aria-label='Sponsored']"
+    "div[aria-label='Sponsored']",
+    ".agent-turn > div:has(button[aria-label='Ad options'])",
+    ".agent-turn > div:has(button[aria-label='Ad options']) + div"
   ],
-  "keywords": ["Sponsored", "Promoted", "Ad", "Advertisement"],
+  "keywords": [
+    "Sponsored", 
+    "Promoted", 
+    "Ad", 
+    "Advertisement"
+  ],
   "text_threshold": 120
 }
