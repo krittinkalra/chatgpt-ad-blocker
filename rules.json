@@ -1,11 +1,13 @@
 {
-  "version": 1.1,
+  "version": 1.2,
   "css_selectors": [
     "[data-testid='ad-slot']",
     ".sponsored-message",
     "div[aria-label='Sponsored']",
     ".agent-turn > div:has(button[aria-label='Ad options'])",
-    ".agent-turn > div:has(button[aria-label='Ad options']) + div"
+    ".agent-turn > div:has(button[aria-label='Ad options']) + div",
+    "div.border-token-border-default:has(button[aria-label='Ad options'])",
+    "div.border-token-border-default:has(button[aria-label='Ad options']) + div.border-token-border-default"
   ],
   "keywords": [
     "Sponsored", 
